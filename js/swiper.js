@@ -1,0 +1,1 @@
+var mq=window.matchMedia("(max-width: 768px)");var swiper=new Swiper(".mySwiper",{slidesPerView:mq.matches?1:4,grid:{rows:2,},spaceBetween:30,navigation:{nextEl:".swiper-button-next",prevEl:".swiper-button-prev",},});
